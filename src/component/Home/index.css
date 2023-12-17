@@ -1,0 +1,62 @@
+
+.navbar-section{
+    background-color: #030B15 !important;
+    color: #FFF !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+}
+
+#title{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.text-font{
+    font-family: 'Outfit', sans-serif !important;
+}
+
+.nav-border{
+    border-bottom: 3px solid rgb(255 255 255 / 10%);
+}
+
+.mode-div{
+    display: inline-block;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 2rem 1rem 0rem 0rem;
+}
+
+.label-text{
+  padding-left: 0.5rem;  
+}
+
+.form-section{
+    background-color: #030B15;
+}
+
+.form-container{
+    /* margin-top: 5rem; */
+    padding-top: 5rem;
+}
+
+.form-design{    
+    padding:2rem;
+    background: #0B1D33;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    border-radius: 2%;
+
+}
+
+.table-design{
+    padding:2rem;
+    --bs-table-bg: #0B1D33 !important;
+    --bs-table-color: #FFF !important;
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+}
