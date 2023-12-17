@@ -33,6 +33,11 @@ function AddTask(props) {
       return;
     }
 
+    if(new Date(dueDate) < new Date()){
+      alert('Invalid date for the task.');
+      return;
+    }
+
     let newTask = {
       id: props.tasks.length + 1,
       title,
